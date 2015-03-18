@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.sqcubes.toontasker.activity.ToonEditProgramActivity">
+
+    <RadioGroup
+        android:id="@+id/rgToonProgram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@string/program_comfort">
+
+        <RadioButton
+            android:id="@+id/rbToonProgramAway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/program_away" />
+
+        <RadioButton
+            android:id="@+id/rbToonProgramHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/program_home" />
+
+        <RadioButton
+            android:id="@+id/rbToonProgramSleep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/program_sleep" />
+
+        <RadioButton
+            android:id="@+id/rbToonProgramComfort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/program_comfort" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:onClick="cancelButtonClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel_camel_case"/>
+
+        <Button
+            android:id="@+id/btnOk"
+            android:onClick="okButtonClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok_caps"/>
+
+        </LinearLayout>
+
+</LinearLayout>

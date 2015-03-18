@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Toon Tasker</string>
+    <string name="title_activity_edit_toon_program">Toon Program</string>
+    <string name="title_activity_edit_toon_temperature">Toon Temperature</string>
+
+    <string name="program_comfort">Comfort</string>
+    <string name="program_sleep">Sleep</string>
+    <string name="program_home">Home</string>
+    <string name="program_away">Away</string>
+    <string name="program_unknown_error">Unknown (Error)</string>
+    <string name="ok_caps">OK</string>
+    <string name="cancel_camel_case">Cancel</string>
+    <string name="notification_text_toon_login_failed">Could not login into Toon!</string>
+    <string name="toast_message_login_required">Login is required. See notification for more information.</string>
+    <string name="toast_message_login_failed">Login failed. See notification for more information.</string>
+    <string name="toast_message_toon_temperature_set">Toon temperature set</string>
+    <string name="toast_message_toon_set_to">Toon set to</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Toon Email</string>
+    <string name="prompt_password">Toon Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+</resources>
